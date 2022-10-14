@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+   
+   
+   <style>                    <!--internal css-->
+    *{
+    color: blue;
+    position: relative;
+}
+hr{
+    width: 63%;
+    margin-left: 0%;
+}
+#cont-head{
+    width: 100%;
+}
+.name{
+    position: relative; left: 500px;
+}
+
+.RightBox{
+    color: rgb(2, 2, 2);
+    position: fixed; top: 100px; left:1000px;
+    padding: 10px;
+    margin: 10px;
+    height: auto;
+    width: 400px;
+    border: 1px black solid;
+
+}
+.contact{
+    position: relative; left: 50px; right: 50px;   
+}
+
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <hr>
+    <h1 class="name">WASIF HASSAN </h1>
+    <hr>
+    <h2>Objective<hr></h2>
+    <p>To develop web and mobile application for fun and profit</p>
+    <h2>Education<hr></h2>
+    <p><pre>Software Engineering, 2020, SSUET
+GPA 3.2/4.0
+    </pre></p>
+    <h2>Experience<hr></h2>
+    <ul>
+        <li>2014-2020</li>
+        <li>2020-present</li>
+    </ul>
+    <h2>Skills<hr></h2>
+    <p>Java, HTML, CSS, JS, Python,My-SQL</p>
+    <h2>Refrences<hr></h2>
+    <p>Available upon request</p>
+
+
+
+    <div class="RightBox">
+        <h1 class="contact">Contact Information</h1><hr id="cont-head">
+        <p><pre>
+        <b>Name:</b>Wasif Hassan    
+        <b>Address:</b>********
+        <b>Ph No::</b>*********
+        <b>Email:</b>wasif******@gmail.com
+        <b>LinkedIn:</b>******
+        <b>Github:</b>*******
+        </pre></p>
+
+    </div>
+   
+</body>
+</html>
